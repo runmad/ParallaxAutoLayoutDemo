@@ -1,5 +1,7 @@
 # Parallax Auto Layout Demo
 
+Blog post: http://runmad.com/blog/2015/08/parallax-uitableview-header-with-auto-layout/
+
 This Xcode project shows how to add a `tableHeaderView` to a `UITableView` with the popular parallax effect   using Auto Layout.
 
 ![Parallax Auto Layout Demo Animation](https://raw.github.com/runmad/ParallaxAutoLayoutDemo/master/ParallaxAutoLayoutDemo.gif)
