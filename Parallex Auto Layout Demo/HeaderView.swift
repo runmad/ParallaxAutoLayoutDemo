@@ -38,7 +38,7 @@ class HeaderView: UIView {
         imageView.backgroundColor = UIColor.whiteColor()
         imageView.clipsToBounds = true
         imageView.contentMode = .ScaleAspectFill
-        imageView.image = UIImage(named: "Apple Touch ID Promo")
+        imageView.image = UIImage(named: "Apple-Touch-ID-Promo")
         containerView.addSubview(imageView)
         containerView.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|[imageView]|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: ["imageView" : imageView]))
         bottomLayoutConstraint = NSLayoutConstraint(item: imageView, attribute: .Bottom, relatedBy: .Equal, toItem: containerView, attribute: .Bottom, multiplier: 1.0, constant: 0.0)

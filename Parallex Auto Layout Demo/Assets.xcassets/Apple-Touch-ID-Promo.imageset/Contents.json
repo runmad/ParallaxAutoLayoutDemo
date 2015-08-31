@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "hero_why_theres_iphone_large_2x.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Apple Touch ID Promo.jpg",
+      "filename" : "Apple-Touch-ID-Promo@2x.png",
       "scale" : "2x"
     },
     {
