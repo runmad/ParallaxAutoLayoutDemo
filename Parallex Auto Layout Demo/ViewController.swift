@@ -13,12 +13,12 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.tableHeaderView = HeaderView.init(frame: CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 200));
+        self.tableView.tableHeaderView  = HeaderView.init(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 200))
     }
 
-    override func scrollViewDidScroll(scrollView: UIScrollView) {
+    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let headerView = self.tableView.tableHeaderView as! HeaderView
-        headerView.scrollViewDidScroll(scrollView)
+        headerView.scrollViewDidScroll(scrollView: scrollView)
     }
 }
 
